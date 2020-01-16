@@ -11,9 +11,7 @@ ENV PORT=4200
 
 COPY . .
 
-RUN npm install && \
-    npm install -g mirror-config-china --registry=http://registry.npm.taobao.org && \
-    npm install node-sass
+RUN npm install
 
 RUN chmod +x start.sh
 
