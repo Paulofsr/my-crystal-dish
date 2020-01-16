@@ -41,7 +41,7 @@ describe('Assignment 3', function(){
     after(function () {
     });
 
-    describe('/v1/conFusion', function () {
+    describe('/v1/myCrystalDish', function () {
 
         it('Should return list of Dish.', function () {
             return get('/dishes/')
@@ -349,7 +349,7 @@ describe('Assignment 3', function(){
             return post('/dishes/' + dishId + '/comments',
                 {
                     "rating": 5,
-                    "comment": "Imagine all the eatables, living in conFusion!"
+                    "comment": "Imagine all the eatables, living in myCrystalDish!"
                 },
                 {
                     "headers": {

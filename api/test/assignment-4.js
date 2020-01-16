@@ -42,7 +42,7 @@ describe('Assignment 4', function(){
     after(function () {
     });
 
-    describe('/v1/conFusion/favorites', function () {
+    describe('/v1/myCrystalDish/favorites', function () {
 
         it('Should return list of Dish.', function () {
             return get('/dishes/')
