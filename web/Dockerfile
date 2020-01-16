@@ -9,7 +9,7 @@ WORKDIR /www
 
 ENV PORT=4200
 
-COPY . .
+COPY ./web .
 
 RUN npm install
 
