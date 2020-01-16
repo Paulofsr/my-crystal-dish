@@ -12,7 +12,7 @@ WORKDIR /app
 
 ENV PORT=3000
 
-COPY . .
+COPY ./api .
 
 RUN npm install
 
@@ -20,4 +20,4 @@ RUN chmod +x start.sh
 
 EXPOSE 3000
 
-CMD [".api/start.sh"]
+CMD ["./start.sh"]
